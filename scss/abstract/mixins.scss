@@ -1,7 +1,0 @@
-@mixin background-size($url-val, $bg-position-val, $bg-attachment) {
-  background-image: $url-val;
-  background-position: $bg-position-val;
-  background-attachment: $bg-attachment;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
