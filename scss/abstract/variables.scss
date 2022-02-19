@@ -1,0 +1,9 @@
+//  variables
+$light-purple: #d3c3bc;
+$medium-purple: #bfada5;
+$dark-purple: #9b8181;
+$blue: #85a7ca;
+::selection {
+  background-color: $dark-purple;
+  color: white;
+}

@@ -1,0 +1,14 @@
+// utilities
+@import "../abstract/variables.scss";
+
+%btn {
+  padding: 0.5rem 1rem;
+  border-radius: 50px;
+  display: inline-block;
+}
+
+.main-btn {
+  @extend %btn;
+  background-color: $medium-purple;
+  color: white;
+}

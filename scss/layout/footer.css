@@ -1,0 +1,17 @@
+::-moz-selection {
+  background-color: #9b8181;
+  color: white;
+}
+
+::selection {
+  background-color: #9b8181;
+  color: white;
+}
+
+.footer {
+  margin: 20px 50px;
+  background-color: white;
+  color: #d3c3bc;
+  font-size: 0.8rem;
+}
+/*# sourceMappingURL=footer.css.map */

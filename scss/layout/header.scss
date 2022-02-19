@@ -1,0 +1,142 @@
+// HEADER
+// nav
+// @import "../base/rest.css";
+.nav {
+  padding: 0 30px;
+  position: fixed;
+  z-index: 1200;
+  transition: 0.5s;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: transparent;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .menu-items {
+    position: fixed;
+    text-transform: uppercase;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 0);
+    opacity: 0.9;
+    list-style: none !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2000;
+    top: 0;
+    left: 0;
+
+    .close {
+      position: absolute;
+      cursor: pointer;
+      top: 50px;
+      right: 100px;
+      color: white;
+      font-size: 40px;
+      transform: skew(15deg);
+      transition: 0.3s;
+      &:hover {
+        color: rgba(255, 255, 255, 0.411);
+      }
+    }
+    .items {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      li {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+      }
+
+      li a {
+        display: inline-block;
+        transform: translate(0, 100%);
+        opacity: 1;
+        margin-bottom: 20px;
+        font-size: 20px;
+        color: white;
+        text-decoration: none;
+        transition: 0.4s;
+        &:hover {
+          color: rgba(255, 255, 255, 0.411);
+        }
+      }
+      :nth-child(1) a {
+        animation-delay: 0.1s;
+      }
+      :nth-child(2) a {
+        animation-delay: 0.2s;
+      }
+      :nth-child(3) a {
+        animation-delay: 0.3s;
+      }
+      :nth-child(4) a {
+        animation-delay: 0.4s;
+      }
+      :nth-child(5) a {
+        animation-delay: 0.5s;
+      }
+    }
+  }
+  .logo-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    padding-right: 30px;
+    transition: 0.5s;
+    i.icon-menu {
+      font-size: 30px;
+      cursor: pointer;
+    }
+    .logo {
+      width: 90px;
+      height: 90px;
+      transition: 0.5s;
+      filter: invert(100%);
+    }
+  }
+
+  .socials {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 10%;
+    height: 100%;
+    margin-left: 30px;
+    i[class^="icon-"] {
+      margin-left: 10px;
+    }
+  }
+}
+
+.nav.add {
+  border-bottom: 1px solid rgba(211, 211, 211, 0.5);
+  background-color: white;
+
+  .logo-menu {
+    border-right: 1px solid rgba(211, 211, 211, 0.5);
+
+    .logo {
+      filter: invert(0%);
+    }
+  }
+
+  .socials {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 10%;
+
+    margin-left: 30px;
+
+    i[class^="icon-"] {
+      margin-left: 10px;
+    }
+  }
+}

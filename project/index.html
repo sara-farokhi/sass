@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/main.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <!-- Nav -->
+      <div class="nav">
+        <div class="logo-menu">
+          <div class="logo">
+            <img src="images/logo_freelance.png" alt="logo" />
+          </div>
+          <div class="menu">
+            <i class="icon-menu"></i>
+            <div class="menu-items"> 
+              <i class="close"> x</i>
+              <ul class="items">
+                <li> <a href="#welcom">home</a> 
+                  <li> <a href="#aboutme">About me</a> 
+                    <li> <a href="#serv">Services</a> 
+                      <li> <a href="#rp">Recent Projects</a> 
+                        <li> <a href="#touch">Get in touch</a> 
+                </li>
+                
+              
+              </ul>     
+                   </div>
+          </div>
+
+        </div>
+        <div class="socials">
+          <i class="icon-twitter"></i>
+          <i class="icon-dribbble"></i>
+          <i class="icon-instagram"></i>
+        </div>
+      </div>
+    </header>
+    <main>
+      <!-- welcome -->
+      <div class="section-container welcome">
+        <div class="section-inner welcom-img"></div>
+        <section class="section-inner" id="welcom">
+          <h1>Welcome!</h1>
+          <p>
+            I am Sarah, an experienced California based freelancer. I specialise
+            in graphic design & user interfaces as well as photo, video & audio
+            editing.
+          </p>
+          <div class="btn main-btn">Learn More</div>
+        </section>
+      </div>
+      <!-- Recent Projects -->
+
+      <div class="section-container projects">
+        <section class="section-inner bg-purple" id="rp">
+          <h2>Recent Projects !</h2>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam
+            officia illum cumque? Voluptatibus modi in temporibus eum animi enim
+            debitis labore voluptate corrupti, vero, odio repellendus commodi
+            pariatur non ut.
+          </p>
+          <div class="projects-wrapper">
+            <div class="projects-inner">
+              <div class="project-img-wrapper">
+                <img src="images/portfolio-6.jpg" alt="project1" />
+              </div>
+            </div>
+            <div class="projects-inner">
+              <div class="project-img-wrapper">
+                <img src="images/portfolio-5.jpg" alt="project2" />
+              </div>
+            </div>
+            <div class="projects-inner">
+              <div class="project-img-wrapper">
+                <img src="images/portfolio-4.jpg" alt="project3" />
+              </div>
+            </div>
+            <div class="projects-inner">
+              <div class="project-img-wrapper">
+                <img src="images/portfolio-3.jpg" alt="project4" />
+              </div>
+            </div>
+            <div class="projects-inner">
+              <div class="project-img-wrapper">
+                <img src="images/portfolio-2.jpg" alt="project5" />
+              </div>
+            </div>
+            <div class="projects-inner">
+              <div class="project-img-wrapper">
+                <img src="images/portfolio-1.jpg" alt="project6" />
+              </div>
+            </div>
+          </div>
+        </section>
+        <div class="section-inner projects-img"></div>
+
+          <!-- MODAL -->
+        <div class="modal">
+                   <div class="slider-wrapper">
+              <div class="slide">
+                <img src="images/portfolio-1.jpg" alt="">
+                <div class="slide-number">1/6</div>
+              </div>
+              <div class="slide">
+                <img src="images/portfolio-2.jpg" alt="">
+                <div class="slide-number">2/6</div>
+              </div>
+              <div class="slide">
+                <img src="images/portfolio-3.jpg" alt="">
+                <div class="slide-number">3/6</div>
+              </div>
+              <div class="slide">
+                <img src="images/portfolio-4.jpg" alt="">
+                <div class="slide-number">4/6</div>
+              </div>
+              <div class="slide">
+                <img src="images/portfolio-5.jpg" alt="">
+                <div class="slide-number">5/6</div>
+              </div>
+              <div class="slide">
+                <img src="images/portfolio-6.jpg" alt="">
+                <div class="slide-number">6/6</div>
+              </div>
+            </div>
+            <i class="change-slide next" onclick="changeSlides(1)">&gt</i>
+            <i class="change-slide prev" onclick="changeSlides(-1)">&lt</i>
+            
+           
+
+        
+        </div>
+      </div>
+
+      <!-- Services -->
+
+      <div class="section-container services">
+        <div class="section-inner services-img"></div>
+        <section class="section-inner" id="serv">
+          <h2>Services</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+            commodo ligula eget dolor. Aenean massa. Cum sociis natoque
+            penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+            penatibus et magnis dis
+          </p>
+
+          <div class="service-wrapper">
+            <section class="single-service">
+              <i class="icon-eye"></i>
+              <h3>Research</h3>
+              <p>
+                Donec pede justo, fringilla vel, aliquet nec, vulputate eget,
+                arcu.
+              </p>
+              <div class="line"></div>
+            </section>
+            <section class="single-service">
+              <i class="icon-paint-brush"></i>
+              <h3>Design</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetlit. Aenean eget dolor.
+              </p>
+              <div class="line"></div>
+            </section>
+            <section class="single-service">
+              <i class="icon-photos"></i>
+              <h3>Photography</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetlit. Aenean eget dolor.
+              </p>
+            </section>
+            <section class="single-service">
+              <i class="icon-developer_mode"></i>
+              <h3>Development</h3>
+              <p>
+                Donec pede justo, fringilla vel, aliquet nec, vulputate eget,
+                arcu.
+              </p>
+            </section>
+          </div>
+        </section>
+      </div>
+
+      <!-- About me -->
+      <div class="section-container about">
+        <section class="section-inner bg-purple" id="aboutme">
+          <h2>About me</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+            commodo ligula eget dolor. Aenean massa. Cum sociis natoque
+            penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+            penatibus et magnis dis
+          </p>
+          <h4>Skills</h4>
+          <p>
+            Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
+            Nulla consequat massa quis enim.
+          </p>
+
+          <div class="skill-box">
+            <div class="skill-wrapper fake">
+              <div class="skill">
+                <span class="skill-name">WEB DESIGN</span>
+                <span class="skillF-percent">0%</span>
+              </div>
+              <div class="progress-outer">
+                <div class="progressF"></div>
+              </div>
+            </div>
+          
+           <div class="skill-wrapper">
+              <div class="skill">
+                <span class="skill-name">WEB DEVELOPEMENT</span>
+                <span class="skill2-percent">0%</span>
+              </div>
+              <div class="progress-outer">
+                <div class="progress2"></div>
+              </div>
+            </div>
+            <div class="skill-wrapper">
+              <div class="skill">
+                <span class="skill-name">PHOTOGRAPHY </span>
+                <span class="skill1-percent">0%</span>
+              </div>
+              <div class="progress-outer">
+                <div class="progress"></div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <div class="section-inner about-img"></div>
+      </div>
+
+      <!-- Get in touch -->
+      <div class="section-container bg-blue touch">
+        <div class="section-inner intouch-img"></div>
+        <div class="section-inner" id="touch">
+          <h2>Get in touch</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+            commodo ligula eget dolor. Aenean massa. Cum sociis natoque
+            penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+            penatibus et magnis dis
+
+
+<div class="adress">
+  <div class="location">
+    <h3>Address</h3>
+    <p>
+      10800 West Pico Boulevard Infinity Loop
+
+    </p>
+    <p>
+      Cupertino, Los Angeles, USA
+
+
+    </p>
+  </div>
+  <div class="hour">
+    <h3>Opening Hours
+    </h3>
+    <p>Mo-Fr: 8:00-19:00
+    </p>
+    <p>
+      Sa: 8:00-14:00
+
+    </p>
+  </div>
+</div>
+            <input type="text" placeholder="Name*" />
+            <input
+              type="text"
+              placeholder="E-mail*"
+            /><input type="text" placeholder="Subject*" />
+            <textarea
+              name=""
+              id=""
+              cols="30"
+              rows="10"
+              placeholder="Message*"
+            ></textarea>
+          </p>
+        </div>
+      </div>    
+      <div class="elevator">
+        <i class="icon-chevron-up"></i> 
+        </div>
+        <div class="loader-wrapper">
+          <div class="loader">
+          </div>
+        </div>
+          </main>
+    <footer class="footer">Developed By Sara Farokhi</footer>
+    <script src="js/jquery-3.6.0.js"></script>   
+    <script src="js/main.js"></script>
+  </body>
+</html>

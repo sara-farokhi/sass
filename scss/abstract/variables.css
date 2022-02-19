@@ -1,0 +1,9 @@
+::-moz-selection {
+  background-color: #9b8181;
+  color: white;
+}
+::selection {
+  background-color: #9b8181;
+  color: white;
+}
+/*# sourceMappingURL=variables.css.map */

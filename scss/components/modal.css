@@ -1,0 +1,74 @@
+.modal {
+  opacity: 0;
+  visibility: hidden;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.8);
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.modal .slider-wrapper {
+  background-color: white;
+  width: 50%;
+  min-height: 500px;
+  margin: 50px auto;
+}
+
+.modal .slider-wrapper .slide:nth-child(1) {
+  display: block;
+}
+
+.modal .slider-wrapper .slide {
+  width: 100%;
+  min-height: 500px;
+  position: relative;
+  display: none;
+  -webkit-animation: fade 0.5s linear forwards;
+          animation: fade 0.5s linear forwards;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+.modal .slider-wrapper .slide img {
+  display: block;
+  width: 100%;
+  min-height: 500px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.modal .slider-wrapper .slide .slide-number {
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.555);
+  font-size: 1.2rem;
+}
+
+.modal .change-slide {
+  font-size: 60px;
+  color: white;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translate(0%, -50%) skew(16deg);
+          transform: translate(0%, -50%) skew(16deg);
+  cursor: pointer;
+}
+
+.modal .next {
+  left: 90%;
+}
+
+.modal .prev {
+  left: 5%;
+}
+/*# sourceMappingURL=modal.css.map */
