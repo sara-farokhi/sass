@@ -190,7 +190,6 @@
 [class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: "icomoon" !important;
-  speak: never;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -291,7 +290,6 @@ img {
 .section-container {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr) [2];
   grid-template-columns: repeat(2, 1fr);
   overflow: auto;
 }
@@ -531,7 +529,6 @@ img {
 .section-container {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr) [2];
   grid-template-columns: repeat(2, 1fr);
   overflow: auto;
 }
@@ -855,9 +852,7 @@ img {
 }
 
 .projects .projects-wrapper {
-  display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr) [2];
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 15px;
   padding: 15px;
@@ -1008,9 +1003,7 @@ img {
 }
 
 .services .service-wrapper {
-  display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr) [2];
   grid-template-columns: repeat(2, 1fr);
   margin-top: 5rem;
 }
@@ -1250,9 +1243,9 @@ img {
 }
 
 .touch .adress .location {
-  -ms-grid-row: 1;
+  grid-row: 1;
   -ms-grid-row-span: 2;
-  -ms-grid-column: 1;
+  grid-column: 1;
   grid-area: location;
 }
 
@@ -1261,9 +1254,9 @@ img {
 }
 
 .touch .adress .hour {
-  -ms-grid-row: 1;
+  grid-row: 1;
   -ms-grid-row-span: 2;
-  -ms-grid-column: 2;
+  grid-column: 2;
   grid-area: hour;
 }
 
@@ -1466,7 +1459,6 @@ img {
   .projects .projects-wrapper {
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: (1fr) [2];
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 15px;
     padding: 15px;
@@ -1475,7 +1467,6 @@ img {
   .services .service-wrapper {
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: (1fr) [2];
     grid-template-columns: repeat(2, 1fr);
     margin-top: 5rem;
   }
